@@ -62,7 +62,7 @@ export default defineEventHandler(async (event): Promise<TestApiRes> => {
       temp.ts = ts;
       temp.detail = getBlogListByApiResult;
       return {
-        dataFrom: 'microCMP',
+        dataFrom: 'microCMS',
         time: sw.GetTime(),
         list: temp.detail,
       };

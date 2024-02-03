@@ -8,7 +8,7 @@ import {} from '@/com/type/micro-cms-blog-list';
 import type { MicroCmsBlogDetail } from '@/com/type/micro-cms-blog';
 // ----------------------------------------------------------------------------
 export type TestApiRes = {
-  dataFrom: '' | 'nuxt' | 'upstash' | 'microCMP';
+  dataFrom: '' | 'nuxt' | 'upstash' | 'microCMS';
   time: string;
   list: MicroCmsBlogDetail[] | null;
 };

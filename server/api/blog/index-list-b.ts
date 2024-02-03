@@ -37,7 +37,7 @@ export default defineEventHandler(async (event): Promise<TestApiRes> => {
     const getBlogListByApiResult = await GetBlogListByApi();
     if (getBlogListByApiResult !== null) {
       return {
-        dataFrom: 'microCMP',
+        dataFrom: 'microCMS',
         time: sw.GetTime(),
         list: getBlogListByApiResult,
       };
