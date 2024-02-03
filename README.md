@@ -2,6 +2,7 @@
 
 # Micro CMS Template
 
-かんたんな「micro CMS」とNuxt3のテンプレート
+micro CMS、Nuxt3、Vercel、Upstash(Redis)あたりのテスト
+
 
 
