@@ -91,7 +91,7 @@ const { data: apiRes } = await useFetch('/api/blog/index-list-a', {});
       </BasePanel>
 
       <div class="mt-10">
-        <a href="https://github.com/hare-systems-ryo/micro-cms-template">
+        <a href="https://github.com/hare-systems-ryo/micro-cms-nuxt-test">
           Github リポジトリはこちら github.com/hare-systems-ryo/micro-cms-template
         </a>
       </div>
